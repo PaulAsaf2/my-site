@@ -1,0 +1,68 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+/* <weight>: Use a value from 300 to 800 */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 18px;
+}
+
+.cont_education {
+  background-color: #D9D9D9 ;
+}
+
+.education {
+  max-width: 1280px;
+  /* outline: thin solid red; */
+  margin: auto;
+  padding: 40px 108px 48px 108px;
+  background-image: url(./media/certificate_grey.svg);
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+
+.education_title {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.education_cont {
+  display: flex;
+  column-gap: 50px;
+  padding-bottom: 30px;
+}
+
+.education_cont:last-child {
+  padding-bottom: 0;
+}
+
+.education_year {
+  font-size: 24px;
+}
+
+.education_description {
+  color: #6A6A6A;
+  padding-top: 4px;
+}
