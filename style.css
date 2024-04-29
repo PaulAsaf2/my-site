@@ -29,6 +29,25 @@ body {
   font-size: 18px;
 }
 
+.about-me {
+  max-width: 1280px;
+  padding: 48px 108px 0 108px;
+  margin: auto;
+  display: flex;
+  column-gap: 130px;
+  padding-bottom: 55px;
+}
+
+.about-me_paragraph {
+  margin-bottom: 12px;
+}
+
+.about-me_paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* EDUCATION --- EDUCATION --- EDUCATION */
+
 .cont_education {
   background-color: #D9D9D9 ;
 }
